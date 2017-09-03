@@ -1,0 +1,27 @@
+{
+    "name": "messerli90/bittrex",
+    "description": "Laravel Bittrex API wrapper / facade",
+    "keywords": ["crypto", "cryptocurrency", "bitcoin", "laravel", "bittrex"],
+    "type": "wrapper",
+    "require": {
+        "php": ">=5.6.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "illuminate/support": ">= 5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Messerli",
+            "email": "michaelamesserli@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Messerli90\\Bittrex\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
