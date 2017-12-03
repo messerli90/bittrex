@@ -80,7 +80,7 @@ Add the `bittrex` to your `config/services.php` array
 ```php
 'bittrex' => [
     'key' => 'YOUR_API_KEY',
-    'secret' => 'YOUR_API_SECRET
+    'secret' => 'YOUR_API_SECRET'
 ]
 ```
 
